@@ -1,7 +1,14 @@
 # WorldWideVibes
 ## How does the world feel today?
 
+Try out the app on heroku: [https://shielded-dusk-37186.herokuapp.com](https://shielded-dusk-37186.herokuapp.com)!
+
+(You can use one of the [stripe test credit cards](https://stripe.com/docs/testing) to access the app)
+
+### About
 Given a user-specified topic or hashtag, this [Flask](https://flask.palletsprojects.com/en/1.1.x/) app will scrape Twitter for that topic, analyze the sentiment of the found tweets and display how the world (or at least Twitter, that is... ;) ) feels about that topic.
+
+### Running the app locally
 
 The app structure is based on the [Flaskex](https://github.com/anfederico/Flaskex) flask boilerplate. If you want to try out the app locally, you need to export your stripe-keys and Twitter tokens. To do that, locate your stripe secret key, your stripe publishable key and your Twitter consumer key, consumer secret, access token and token secret in your respective Stripe/ Twitter accounts. Then, on the command line, run
 
