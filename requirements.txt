@@ -8,3 +8,4 @@ gunicorn
 stripe
 pandas
 tweepy
+vaderSentiment
